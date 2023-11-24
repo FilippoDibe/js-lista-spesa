@@ -9,10 +9,6 @@
     // 4.1) la funzione aggiunge alla lista le stringe inserite nella funzione precedente
 
 
-
-
-
-
 // Array di partenza con elementi predefiniti
 var listaSpesa = ["pane", "pasta", "acqua"];
 
