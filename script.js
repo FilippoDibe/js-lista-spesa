@@ -5,7 +5,11 @@ var listaSpesa = ["pane", "pasta", "acqua"];
 function start(){
     var item = document.getElementById("lista-spesa");
     var i = 0;
-
+    while (i < listaSpesa.length){
+        var listaItem= document.createElement('li');
+        listaItem.appendChild(document.createTextNode(listaSpesa[i]));
+        item.appendChild(listaItem);
+    }
    
 }
 
