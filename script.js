@@ -1,3 +1,18 @@
+// 1)parto da un array gia formato 
+// 2) lo stampo in pagina dentro una lista
+    // 2.1) creo i li che contengono le stringe dell'array
+// 3) creo una funzione che aggiunge elementi all'array
+    // 3.1)la funzione oltre che prendere la parola deve pulire il campo 
+    // 3.2) se inserisco una stringa vuora dire che non va bene
+    // 3.3)aggiungerla ad un bottone che la esegua al click 
+// 4) ora devo aggiornare la lista creado una funzione 
+    // 4.1) la funzione aggiunge alla lista le stringe inserite nella funzione precedente
+
+
+
+
+
+
 // Array di partenza con elementi predefiniti
 var listaSpesa = ["pane", "pasta", "acqua"];
 
