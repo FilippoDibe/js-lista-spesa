@@ -15,6 +15,23 @@ while (i < listaSpesa.length){
 
     i++
 }
+// aggiungo un elemento alla array 
+function aggiungiItem(){
+    var newItem=document.getElementById('text');
+
+    // verifca dell input che non deve essere vuoto 
+    if (newItem !==''){
+        listaSpesa.push(newItem);
+        aggiungiItem()
+
+        // pulisce il campo 
+        document.getElementById(text).value='';
+    }
+}
+
+
+
+
 
 
 
